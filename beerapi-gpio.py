@@ -110,7 +110,7 @@ if __name__=="__main__":
 
 #syntax for adding controllers
 #payload_add_controller = {'api_key': KEY, 'name': 'fake', 'serial_number': '0101', 'model_name':'fake-pi' }
-#add_controller = requests.post(BASE_URL+'controllers', data=payload5)
+#add_controller = requests.post(BASE_URL+'controllers', data=payload_add_controller)
 
 #test_drink = {'api_key': KEY, 'ticks': '100'}
 #test_drink2 = {'api_key': KEY, 'ticks': fm.clicks}
